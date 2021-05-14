@@ -1,0 +1,115 @@
+/* Frequently Asked Questions Section
+--------------------------------*/
+#faq {
+  padding: 60px 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+#faq .container {
+    width: 65%;
+}
+
+@media (max-width: 560px) {
+  #faq .container {
+      width: 100%;
+  }
+}
+
+#faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+#faq .faq-list li {
+  border-bottom: 1px solid #edecf4;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+#faq .faq-list .question {
+  display: block;
+  position: relative;
+  font-family: #E60000;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-left: 25px;
+  cursor: pointer;
+  color: #880000;
+  transition: 0.3s;
+}
+
+#faq .faq-list i {
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+#faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 25px;
+}
+
+#faq .faq-list .icon-show {
+  display: none;
+}
+
+#faq .faq-list .collapsed {
+  color: black;
+}
+
+#faq .faq-list .collapsed:hover {
+  color: #E60000;
+}
+
+#faq .faq-list .collapsed .icon-show {
+  display: inline-block;
+  transition: 0.6s;
+}
+
+#faq .faq-list .collapsed .icon-close {
+  display: none;
+  transition: 0.6s;
+}
+
+#top-image {
+  background-image: url(https://boneedz.com/wp-content/uploads/2018/12/pixta_28064282_L.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  height: 560px;
+  position: relative;
+}
+
+#top-image .page-title {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 30%;
+  left: 100px;
+  background-color: rgba(201, 0, 2, 0.8);
+  color: #fff;
+  line-height: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+@media (max-width: 560px) {
+  #top-image {
+    height: 240px;
+    background-position: center top;
+  }
+  #top-image .page-title {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    left: 30px;
+    line-height: 110px;
+    font-size: 22px;
+  }
+  #top-image .page-title p{
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,57 @@
+#top-image {
+    background-image: url(https://boneedz.com/wp-content/uploads/2018/12/pixta_25279916_L.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    height: 560px;
+    position: relative;
+  }
+
+  #top-image .page-title {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    background-color: rgba(201, 0, 2, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #top-image .page-title p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  @media (max-width: 560px) {
+    #top-image {
+      height: 240px;
+      background-position: center top;
+    }
+    #top-image .page-title {
+      height: 130px;
+      width: 130px;
+      position: absolute;
+      left: 30px;
+      line-height: 110px;
+      font-size: 22px;
+    }
+    #top-image .page-title p{
+      font-size: 12px;
+    }
+  }
+
+#policy h2 {
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+#policy h3 {
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+#policy p {
+    padding: 0.5rem 0;
+}
