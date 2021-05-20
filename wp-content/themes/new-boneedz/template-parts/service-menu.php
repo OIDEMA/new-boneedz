@@ -2,7 +2,8 @@
       <div class="container">
 
         <div class="section-header">
-          <h3 class="mt-4 mb-4">コース・料金</h3>
+          <h3 class="mt-4">コース・料金</h3>
+          <p class="mb-4">価格は全て税込表示になります</p>
         </div>
 
         <div class="row">

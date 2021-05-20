@@ -1,5 +1,5 @@
 #top-image {
-    background-image: url(https://boneedz.com/wp-content/uploads/2018/12/pixta_28064282_L.jpg);
+    background-image: url(https://boneedz.com/wp-content/uploads/2020/05/training-601214_640-440x290.jpg);
     background-size: cover;
     background-attachment: scroll;
     height: 560px;
@@ -43,8 +43,50 @@
     }
   }
 
-#contact label {
-    font-size: 20px;
-    font-weight: 700;
-    padding: 0.5rem 0;
+
+  #pricing table {
+    width: 100%;
+}
+
+#pricing .initial-th {
+    background-color: #f8f8f8;
+    color: #000;
+    width: 50%;
+    padding: 1.5rem;
+}
+
+#pricing .initial-td {
+    background-color: #fff;
+    color: #000;
+    width: 50%;
+    border: 0.5px solid #EEEEEE;
+}
+
+#pricing .menu th {
+    width: 33%;
+    padding: 1.5rem;
+    border: 1px solid #fff;
+}
+
+#pricing .menu td {
+    width: 33%;
+    padding: 1.5rem;
+}
+
+#pricing .junior-menu th{
+    width: 40%;
+    padding: 1.5rem;
+    border: 1px solid #fff;
+}
+
+@media (max-width: 560px) {
+    #pricing .junior-menu th{
+        width: 30%;
+        padding: 1rem;
+    }
+}
+
+#pricing .junior-menu td {
+    width: 60%;
+    padding: 1.5rem;
 }

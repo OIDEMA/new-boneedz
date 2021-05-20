@@ -40,25 +40,12 @@
       </a>
     </section>
 
-    <section id="news" class="section">
+    <section id="clickTo" class="mt-4 mb-4">
       <div class="container">
-        <div class="row d-flex justify-content-centetr slick-wrapper mx-auto">
-        <?php
-            $args = array(
-            'post_type' => 'news',
-            'posts_per_page' => 4
-          );
-            $posts = get_posts( $args );
-            foreach ( $posts as $post ): // ループの開始
-            setup_postdata( $post ); // 記事データの取得
-          ?>
-          <div class="col-lg-4 news-item">
-              <p class="text-center"> お知らせ | <?php the_date(); ?></p>
-              <a href="<?php the_permalink(); ?>" style="font-weight: bold;">
-                <?php the_title(); ?>
-              </a>
-          </div>
-          <?php endforeach; ?>
+        <div class="d-flex align-items-center justify-content-center" style="cursor: pointer;">
+          <a href="#pricing">
+            <img src="https://boneedz.com/wp-content/uploads/2021/05/安心プラン.png" alt="安心プラン" class="img-fluid" />
+          </a>
         </div>
       </div>
     </section>
@@ -81,22 +68,6 @@
       </div>
     </section> -->
 
-    <!-- メッセージ -->
-    <section class="section-bg" style="padding-bottom: 3rem">
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-lg-12">
-            <h2 class="text-center mt-4 mb-4">シェイプアップ・体質改善・減量・ボディメイクなど、カラダの悩みを短期解決！</h2>
-            <p class="text-center mt-2 mb-2">ボニーズは、高松市中心部に位置するアクセス便利なパーソナルジム</p>
-            <p class="text-center mt-2 mb-2">理想の体型、必要なパフォーマンスなど、会員様のニーズに合わせたトレーニングプログラムを作成。</p>
-            <p class="text-center mt-2 mb-2">オールマンツーマンのパーソナルトレーニングで、美容と健康、鍛えられた美しいカラダづくりはもちろん、</p>
-            <p class="text-center mb-4"> その先にある豊かなライフスタイルまでサポートします。</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ブログ -->
     <section id="blog" class="section">
       <div class="container">
 
@@ -134,6 +105,29 @@
           <div class="swiper-button-next" style="color: #000; font-weight: bold;"></div>
           <!-- <div class="swiper-scrollbar"></div> -->
 
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="section">
+      <div class="container">
+        <div class="row d-flex justify-content-centetr slick-wrapper mx-auto">
+        <?php
+            $args = array(
+            'post_type' => 'news',
+            'posts_per_page' => 4
+          );
+            $posts = get_posts( $args );
+            foreach ( $posts as $post ): // ループの開始
+            setup_postdata( $post ); // 記事データの取得
+          ?>
+          <div class="col-lg-4 news-item">
+              <p class="text-center"> お知らせ | <?php the_date(); ?></p>
+              <a href="<?php the_permalink(); ?>" style="font-weight: bold;">
+                <?php the_title(); ?>
+              </a>
+          </div>
+          <?php endforeach; ?>
         </div>
       </div>
     </section>
@@ -297,22 +291,6 @@
 
             <div class="col-lg-3 col-md-6 swiper-slide">
               <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2020/09/S__49102855.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>高畑 里彩 Takabatake Risa</span>
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 swiper-slide">
-              <div class="member">
                 <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2020/09/S__49111044.jpg" class="img-fluid" alt="">
                 <div class="member-info">
                   <div class="member-info-content">
@@ -405,22 +383,6 @@
                 </div>
               </div>
             </div>
-
-            <!-- <div class="col-lg-3 col-md-6 swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2019/03/高島華干たかしまはるか0001.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>高島 華干　Takashima Haruka</span>
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
 
             <div class="col-lg-3 col-md-6 swiper-slide">
               <div class="member">

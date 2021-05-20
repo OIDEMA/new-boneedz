@@ -4,7 +4,7 @@
 <head>
   <title>boneeds | お知らせ </title>
   <?php get_header(); ?>
-
+  <?php if( !is_user_logged_in() && !is_bot() ) setPostViews( get_the_ID() ) ?>
   <link href="<?php echo get_template_directory_uri(); ?>/assets/css/single-post.css" rel="stylesheet">
 
 </head>
