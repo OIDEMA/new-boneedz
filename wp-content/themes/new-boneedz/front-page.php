@@ -40,14 +40,24 @@
       </a>
     </section>
 
-    <section id="clickTo" class="mt-4 mb-4">
-      <div class="container">
+    <section id="clickTo" class="section">
+
+       <div class="container mb-4">
         <div class="d-flex align-items-center justify-content-center" style="cursor: pointer;">
-          <a href="#pricing">
-            <img src="https://boneedz.com/wp-content/uploads/2021/05/安心プラン.png" alt="安心プラン" class="img-fluid" />
+          <a href="<?php echo home_url('/extensive/') ?>">
+            <img src="https://boneedz.com/wp-content/uploads/2021/05/perfect_boneedz.png" alt="短期集中プログラム" class="img-fluid" />
           </a>
         </div>
       </div>
+
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-center" style="cursor: pointer;">
+          <a href="#pricing">
+            <img src="https://boneedz.com/wp-content/uploads/2021/05/安心プログラム.png" alt="安心プラン" class="img-fluid" />
+          </a>
+        </div>
+      </div>
+
     </section>
 
     <!-- どの店舗？　-->

@@ -29,7 +29,7 @@
     <section　style="margin-top: 6rem;">
         <div class="container-fluid" id="top-image" style="margin-top: 6rem;">
             <div class="page-title">
-                <p>コース・料金<p>
+                <p style="color: #fff; font-weight: bold;">コース・料金<p>
             </div>
         </div>
     </section>

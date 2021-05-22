@@ -48,94 +48,111 @@
     </div>
 </section>
 
-<section id="pricing" class="section" style="background-color: #000;">
+<section id="pricing" class="section" style="background: #000;">
   <div class="container">
 
     <div class="section-header">
-      <h3 class="mt-4 mb-4">Pergect Boneedz</h3>
+      <h3 class="mt-4 mb-4" style="color: #fff;"><span class="typed" data-typed-items="Perfect Boneedz, 人生を変える75日間"></span></h3>
     </div>
 
     <div class="row">
       <div class="col-lg-8 mx-auto">
 
-        <table class="mb-5">
+        <table class="mb-2">
           <tr>
-            <th class="initial-th text-center">初期登録料</th>
-            <td class="initial-td text-center">10,000円</td>
+            <th class="initial-th text-center">費用</th>
+            <td class="initial-td text-center">200,000円（税込）</td>
+          </tr>
+          <tr>
+            <th class="initial-th text-center">トレーニング頻度</th>
+            <td class="initial-td text-center">120分/週</td>
           </tr>
         </table>
-
-        <table class="menu">
-          <tr>
-            <th class="initial-th text-center"></th>
-            <td class="initial-td text-center" style="font-weight: bold">30分</td>
-            <td class="initial-td text-center" style="font-weight: bold">60分</td>
-          </tr>
-
-          <tr>
-            <th class="initial-th text-center">まずは週1回</th>
-            <td class="initial-td text-center">11,200円／月4回</td>
-            <td class="initial-td text-center">19,400円／月4回</td>
-          </tr>
-
-          <tr>
-            <th class="initial-th text-center">向上への一歩！</th>
-            <td class="initial-td text-center">15,300円／月6回</td>
-            <td class="initial-td text-center">26,500円／月6回</td>
-          </tr>
-
-          <tr>
-            <th class="initial-th text-center">しっかりトレーニング！！週2回</br>［おすすめ］</th>
-            <td class="initial-td text-center">19,400円／月8回</td>
-            <td class="initial-td text-center">33,600円／月8回</td>
-          </tr>
-
-          <tr>
-            <th class="initial-th text-center">短期集中型！効果絶大！！</th>
-            <td class="initial-td text-center">26,500円／月12回</td>
-            <td class="initial-td text-center">40,700円／月12回</td>
-          </tr>
-
-        </table>
-
-        <div class="section-header mt-5">
-          <h3 class="mt-4">（ジュニア）コース・料金</h3>
-          <p class="mb-4">※高校生以上は大人料金</p>
-        </div>
-
-        <table class="junior-menu">
-
-          <tr>
-            <th class="initial-th text-center">対象</th>
-            <td class="initial-td text-center">小学生・中学生</td>
-          </tr>
-
-          <tr>
-            <th class="initial-th text-center">料金</th>
-            <td class="initial-td text-center">
-              10,200円／30分コース月4回</br>
-              14,300円／30分コース月6回</br>
-              18,300円／30分コース月8回
-            </td>
-          </tr>
-
-          <tr>
-            <th class="initial-th text-center">初期登録料	</th>
-            <td class="initial-td text-center">10,000円</td>
-          </tr>
-
-        </table>
-
+          <p class="text-center" style="color: #fff;">会員様は３ヶ月分の月会費を差し引いた金額をいただきます。</p>
       </div>
     </div>
+
+    <div class="row mt-4">
+      <div class="col-lg-8 mx-auto">
+        <a href="<?php echo home_url('/contact/') ?>">
+          <p class="text-center monitor">モニター募集</p>
+        </a>
+      </div>
+    </div>
+
+    <section id="case" class="section">
+      <div class="row mt-4">
+        <h3 class="text-center mb-4" style="color: #fff; font-weight: bold;">CASE１</h3>
+
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <img src="https://boneedz.com/wp-content/uploads/2021/05/ba_case1.png" />
+        </div>
+
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <table>
+            <tr>
+              <th></th>
+              <th>2019.12</th>
+              <th>2020.2</th>
+              <th>2020.10</th>
+            </tr>
+            <tr>
+              <th>体重</th>
+              <td>95.3kg</td>
+              <td>74.5kg<br><span style="color: red;">-19.8kg</span></td>
+              <td>65kg<br><span style="color: red;">-9.5kg</span></td>
+            </tr>
+            <tr>
+              <th>体脂肪</th>
+              <td>36.7%</td>
+              <td>20.5%<br><span style="color: red;">-16.2%</span></td>
+              <td>16.2%<br><span style="color: red;">-4.3%</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
   </div>
 </section>
+
 
 </main>
 
 <?php get_template_part('template-parts/footer'); ?>
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<script src="<?php echo get_template_directory_uri(); ?>/assets/vendor/jquery/jquery.min.js"></script>
 <?php get_footer(); ?>
+
+<script src="<?php echo get_template_directory_uri(); ?>/assets/vendor/typed.js/typed.min.js"></script>
+<script>
+
+const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
+
+const typed = select('.typed')
+  if (typed) {
+    let typed_strings = typed.getAttribute('data-typed-items')
+    typed_strings = typed_strings.split(',')
+    new Typed('.typed', {
+      strings: typed_strings,
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 2000
+    });
+  }
+</script>
+
+
 
 </body>
