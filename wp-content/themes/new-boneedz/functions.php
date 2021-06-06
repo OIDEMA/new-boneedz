@@ -20,7 +20,7 @@ function create_post_type() {
         ),
         'public' => true,
         'has_archive' => true,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', "slug" ),
         'show_in_rest' => true,
       )
   );
@@ -34,7 +34,7 @@ function create_post_type() {
         ),
         'public' => true,
         'has_archive' => true,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', "slug" ),
         'show_in_rest' => true,
       )
   );
@@ -44,11 +44,11 @@ function create_post_type() {
             'labels' => array(
             'name' => __( 'sakaide' ),
             'singular_name' => __( 'sakaide' ),
-            'menu_name' => __('坂出店について'),
+            'menu_name' => __('坂出店ブログ'),
         ),
         'public' => true,
         'has_archive' => true,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', "slug" ),
         'show_in_rest' => true,
       )
   );
@@ -62,7 +62,7 @@ function create_post_type() {
         ),
         'public' => true,
         'has_archive' => true,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', "slug" ),
         'show_in_rest' => true,
       )
   );
@@ -72,11 +72,11 @@ function create_post_type() {
             'labels' => array(
             'name' => __( 'marugame' ),
             'singular_name' => __( 'marugame' ),
-            'menu_name' => __('丸亀店について'),
+            'menu_name' => __('丸亀店ブログ'),
         ),
         'public' => true,
         'has_archive' => true,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', "slug" ),
         'show_in_rest' => true,
       )
   );
@@ -90,12 +90,12 @@ function create_post_type() {
         ),
         'public' => true,
         'has_archive' => true,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', "slug" ),
         'show_in_rest' => true,
       )
   );
   register_post_type( 
-    'sakaide-news',
+    'takamatsu-news',
         array(
             'labels' => array(
             'name' => __( 'takamatsu-news' ),
@@ -104,7 +104,7 @@ function create_post_type() {
         ),
         'public' => true,
         'has_archive' => true,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', "slug" ),
         'show_in_rest' => true,
       )
   );
@@ -118,7 +118,7 @@ function create_post_type() {
         ),
         'public' => true,
         'has_archive' => true,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', "slug" ),
         'show_in_rest' => true,
       )
   );

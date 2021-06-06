@@ -125,6 +125,13 @@
   border: 1px solid #fff;
 }
 
+@media (max-width: 560px) {
+  #case table th {
+    padding: 1.5rem 2px;
+  }
+}
+
+
 #case table td {
   color: #000;
   font-weight: 700;
@@ -132,3 +139,5 @@
   text-align: center;
   border: 1px solid #fff;
 }
+
+

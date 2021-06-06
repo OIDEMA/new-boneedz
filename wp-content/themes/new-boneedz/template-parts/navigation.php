@@ -1,5 +1,6 @@
 <nav id="navbar" class="navbar order-last order-lg-0">
     <ul>
+        <li><a class="nav-link" href="<?php echo home_url('/') ?>">ホーム</a></li>
         <li><a class="nav-link" href="<?php echo home_url('/qna/') ?>">QnA</a></li>
         <li><a class="nav-link" href="<?php echo home_url('/staff-2/') ?>">スタッフ紹介</a></li>
         <li><a class="nav-link" href="<?php echo home_url('/service/') ?>">コース・料金</a></li>

@@ -1,4 +1,4 @@
-<section id="pricing" class="section">
+<!-- <section id="pricing" class="section">
       <div class="container">
 
         <div class="section-header">
@@ -80,4 +80,138 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+    <section class="pricing-section service-pricing section">
+        <div class="container">
+          
+        <div class="section-header">
+          <h3 class="mt-4">コース・料金</h3>
+          <p class="mb-4">価格は全て税込表示になります</p>
+        </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-3 col-md-8">
+                    <div class="ps-item">
+                        <h3>まずは週一回！</h3>
+
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="pi-price">
+                                <h2>￥11,200</h2>
+                                <span>4回/月</span>
+                                <span>30分/回</span>
+                            </div>
+
+                            <div class="pi-price">
+                                <h2>￥19,400</h2>
+                                <span>4回/月</span>
+                                <span>60分/回</span>
+                            </div>
+                        </div>
+
+                        <ul>
+                            <li>トレーニングが初めての方などに</li>
+                            <li>トレーニングに不安がある方などに</li>
+                            <!-- <li>Weight losing classes</li>
+                            <li>Month to mouth</li>
+                            <li>No time restriction</li> -->
+                        </ul>
+                        <a href="<?php echo home_url('/contact/') ?>" class="primary-btn pricing-btn">お問い合わせする</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-8">
+                    <div class="ps-item">
+                        <h3>向上への一歩！</h3>
+
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="pi-price">
+                                <h2>￥15,300</h2>
+                                <span>6回/月</span>
+                                <span>30分/回</span>
+                            </div>
+
+                            <div class="pi-price">
+                                <h2>￥26,500</h2>
+                                <span>6回/月</span>
+                                <span>60分/回</span>
+                            </div>
+                        </div>
+
+                        <ul>
+                            <li>トレーニング経験がある方</li>
+                            <li>少しトレーニングに慣れてきた方</li>
+                            <!-- <li>Weight losing classes</li>
+                            <li>Month to mouth</li>
+                            <li>No time restriction</li> -->
+                        </ul>
+                        <a href="<?php echo home_url('/contact/') ?>" class="primary-btn pricing-btn">お問い合わせする</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-8">
+                    <div class="ps-item">
+                        <h3>しっかりトレーニング！［おすすめ］</h3>
+
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="pi-price">
+                                <h2>￥19,400</h2>
+                                <span>8回/月</span>
+                                <span>30分/回</span>
+                            </div>
+
+                            <div class="pi-price">
+                                <h2>￥33,600</h2>
+                                <span>8回/月</span>
+                                <span>60分/回</span>
+                            </div>
+                        </div>
+
+                        <ul>
+                            <li>結果を出したい方</li>
+                            <li>トレーニングへの意識が高い方</li>
+                            <!-- <li>Weight losing classes</li>
+                            <li>Month to mouth</li>
+                            <li>No time restriction</li> -->
+                        </ul>
+                        <a href="<?php echo home_url('/contact/') ?>" class="primary-btn pricing-btn">お問い合わせする</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-8">
+                    <div class="ps-item">
+                        <h3>短期集中型！効果絶大</h3>
+
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="pi-price">
+                                <h2>26,500</h2>
+                                <span>12回/月</span>
+                                <span>30分/回</span>
+                            </div>
+
+                            <div class="pi-price">
+                                <h2>￥40,700</h2>
+                                <span>12回/月</span>
+                                <span>60分/回</span>
+                            </div>
+                        </div>
+
+                        <ul>
+                            <li>短期で結果を出したい方</li>
+                            <li>目標を達成したい方</li>
+                            <!-- <li>Weight losing classes</li>
+                            <li>Month to mouth</li>
+                            <li>No time restriction</li> -->
+                        </ul>
+                        <a href="<?php echo home_url('/contact/') ?>" class="primary-btn pricing-btn">お問い合わせする</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
     </section>
+    <!-- Pricing Section End -->

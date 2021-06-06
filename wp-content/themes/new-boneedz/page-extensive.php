@@ -72,13 +72,13 @@
       </div>
     </div>
 
-    <div class="row mt-4">
+    <!-- <div class="row mt-4">
       <div class="col-lg-8 mx-auto">
         <a href="<?php echo home_url('/contact/') ?>">
           <p class="text-center monitor">モニター募集</p>
         </a>
       </div>
-    </div>
+    </div> -->
 
     <section id="case" class="section">
       <div class="row mt-4">

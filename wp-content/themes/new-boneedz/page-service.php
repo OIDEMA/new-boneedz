@@ -95,9 +95,6 @@
             </div>
         </section>
 
-
-
-
         <?php get_template_part('template-parts/service-menu'); ?>
 
         <?php get_template_part('template-parts/banner'); ?>

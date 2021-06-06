@@ -7,6 +7,7 @@
   <meta content="" name="keywords"> -->
   <?php get_header(); ?>
   <link href="<?php echo get_template_directory_uri(); ?>/assets/css/front-page.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-sakaide.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick-theme.css" media="screen" />
   <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -40,65 +41,13 @@
       </a>
     </section>
 
-    <section id="clickTo" class="mt-4">
-       <div class="container">
-        <div class="row align-items-center justify-content-center">
-
-          <div class="col-lg-6  mt-2">
-            <a href="<?php echo home_url('/extensive/') ?>">
-              <img src="https://boneedz.com/wp-content/uploads/2021/05/perfect_boneedz.png" alt="短期集中プログラム" class="img-fluid" />
-            </a>
-          </div>
-
-          <div class="col-lg-6 mt-2">
-            <a href="<?php echo home_url('/extensive/') ?>">
-            <img src="https://boneedz.com/wp-content/uploads/2021/05/安心プログラム.png" alt="安心プラン" class="img-fluid" />
-            </a>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- どの店舗？　-->
-    <section id="whGym" class="mt-4">
-      <div class="container">
-        <div class="row mx-auto">
-          <a href="<?php echo home_url('/sakaide2/') ?>" style="padding: 0;">
-            <div class="gymWrapper d-flex justify-content-center align-items-center">
-                坂出店はこちらをクリック
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- <section id="clickTo" class="mt-4">
-
-       <div class="container">
-        <div class="d-flex align-items-center justify-content-center" style="cursor: pointer;">
-          <a href="<?php echo home_url('/extensive/') ?>">
-            <img src="https://boneedz.com/wp-content/uploads/2021/05/perfect_boneedz.png" alt="短期集中プログラム" class="img-fluid" />
-          </a>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="d-flex align-items-center justify-content-center" style="cursor: pointer;">
-          <a href="#pricing">
-            <img src="https://boneedz.com/wp-content/uploads/2021/05/安心プログラム.png" alt="安心プラン" class="img-fluid" />
-          </a>
-        </div>
-      </div>
-
-    </section> -->
 
     <section id="news" class="section">
       <div class="container">
         <div class="row d-flex justify-content-centetr slick-wrapper mx-auto">
         <?php
             $args = array(
-            'post_type' => 'news',
+            'post_type' => 'sakaide-news',
             'posts_per_page' => 4
           );
             $posts = get_posts( $args );
@@ -106,7 +55,7 @@
             setup_postdata( $post ); // 記事データの取得
           ?>
           <div class="col-lg-4 news-item">
-              <p class="text-center"> お知らせ　<?php the_date(); ?></p>
+              <p class="text-center"> お知らせ <?php the_date(); ?></p>
               <a href="<?php the_permalink(); ?>" style="font-weight: bold;">
                 <?php the_title(); ?>
               </a>
@@ -115,7 +64,8 @@
         </div>
       </div>
     </section>
-  
+
+
     <section id="blog" class="section">
       <div class="container">
 
@@ -128,6 +78,7 @@
 
             <?php
               $args = array(
+              'post_type' => 'sakaide',
               'posts_per_page' => 6
             );
               $posts = get_posts( $args );
@@ -158,140 +109,6 @@
     </section>
 
     <!-- スタッフ紹介 -->
-    <section id="team" class="team section section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h3 class="mt-4 mb-4">高松店スタッフ</h3>
-        </div>
-
-        <div class="row swiper-container">
-
-          <div class="swiper-wrapper">
-
-            <div class="col-lg-3 col-md-4 swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2018/12/2-e1540437646333-990x1024.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>森岡 顕志　Kenji Morioka</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6　swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2018/12/5-e1540437528262-990x1024.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>濱田 浩司　Koji Hamada</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6　swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2018/12/6-e1540437404794-990x1024.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>長江 彩香　Ayaka Nagae</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2018/12/13-e1540437469734-990x1024.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>塩谷 浩三　Kouzou Shiotani</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2019/03/廣瀬直人ひろせなおと0001.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>廣瀬 直人　Hirose Naoto</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2019/03/山城健人やましろけんと0001.jpg"
-                 class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>山城 健人 Yamashiro Kento</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2019/05/S__46923846.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>藤本 英矩　Fujimoto Hidenori</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2020/09/S__49102851.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>石河 輝彦　Ishikawa Teruhiko</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2020/09/S__49102853.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>松本 一司  Matsumoto Kzushi</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 swiper-slide">
-              <div class="member">
-                <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2020/09/S__49111044.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <span>大塚 悠夏 Otsuka Yuka</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-          </div><!-- Swiper Wrapper -->
-
-        <!-- <div class="swiper-pagination"></div> -->
-        <div class="swiper-button-prev" style="color: #fff; font-weight: bold;"></div>
-        <div class="swiper-button-next" style="color: #fff; font-weight: bold;"></div>
-        <!-- <div class="swiper-scrollbar"></div> -->
-
-        </div>
-      </div>
-    </section><!-- End Team Section -->
-
     <section id="team" class="team section section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -414,13 +231,100 @@
       </div>
     </section><!-- End Team Section -->
 
-    <?php get_template_part('template-parts/service-menu'); ?>
+    <section id="faq" class="faq">
+  <div class="container" data-aos="fade-up">
 
-    <?php get_template_part('template-parts/banner'); ?>
+    <div class="section-header">
+        <h3 class="mt-4 mb-4">坂出店のFAQ</h3>
+    </div>
+
+    <ul class="faq-list mt-5" data-aso="fade-up" data-aos-delay="100">
+
+      <li>
+        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Q1. 駐車場はありますか？ <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            A1．
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Q2．場所どこですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+          <p>
+          A2．
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Q3. 空いてる時間はありますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            A3．</br>
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Q4．体験メニューはありますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            A4．ございます。体験される場合は、運動のしやすい服装と室内シューズをお持ちください。
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Q5．子どもでも大丈夫ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            A5．もちろん大歓迎です。</br>
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Q６．子ども連れてきても大丈夫ですか<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            A6．
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">Q7．歳いってるけど大丈夫ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq7" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            A7．
+          </p>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+
+<section id="form" class="section section-bg">
+  <div class="container">
+    <div class="section-header">
+        <h3 class="mt-4 mb-4">坂出店へのお問い合わせ</h3>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto d-flex justify-content-center align-items-center">
+        <?php echo do_shortcode('[contact-form-7 id="2148" title="坂出店受付フォーム"]'); ?>
+        </div>
+    </div>
+  </div>
+</section>
+
+
 
   </main>
 
-  <?php get_template_part('template-parts/map'); ?>
   <?php get_template_part('template-parts/sponsor'); ?>
   <?php get_template_part('template-parts/footer'); ?>
 
