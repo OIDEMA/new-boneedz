@@ -18,11 +18,11 @@
             <div class="footer-links">
                 <h4>運営情報</h4>
                 <ul>
-                    <li><a href="company">会社概要</a></li>
-                    <li><a href="/privacypolicy">プライバシーポリシー</a></li>
-                    <li><a href="/staff-2">スタッフ紹介</a></li>
-                    <li><a href="/service">コース料金</a></li>
-                    <li><a href="/aboutthissite">このサイトについて</a></li>
+                    <li><a href="<?php echo home_url('/company/') ?>">会社概要</a></li>
+                    <li><a href="<?php echo home_url('/privacypolicy/') ?>">プライバシーポリシー</a></li>
+                    <li><a href="<?php echo home_url('/staff-2/') ?>">スタッフ紹介</a></li>
+                    <li><a href="<?php echo home_url('/service/') ?>">コース料金</a></li>
+                    <li><a href="<?php echo home_url('/aboutthissite/') ?>">このサイトについて</a></li>
                 </ul>
             </div>
 

@@ -5,7 +5,7 @@
   <title>boneeds | ブログ </title>
   <?php get_header(); ?>
   <?php if( !is_user_logged_in() && !is_bot() ) setPostViews( get_the_ID() ) ?>
-  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/single-post.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/single-post.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick-theme.css" media="screen" />
 </head>

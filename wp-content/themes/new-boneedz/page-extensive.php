@@ -4,7 +4,7 @@
 <head>
   <title>香川県高松市にあるパーソナルトレーニングジム | 短期集中プログラム</title>
   <?php get_header(); ?>
-  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-extensive.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-extensive.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -111,6 +111,76 @@
           </table>
         </div>
       </div>
+
+      <div class="row mt-4">
+        <h3 class="text-center mb-4" style="color: #fff; font-weight: bold;">CASE 2</h3>
+
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+        <img src="https://boneedz.com/wp-content/uploads/2021/08/hasimoto2.jpg">
+        </div>
+
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <table>
+            <tr>
+              <th></th>
+              <th>2020.10.1</th>
+              <th>2020.12.15</th>
+             <!--* <th>2020.10</th>-->
+            </tr>
+            <tr>
+              <th>体重</th>
+              <td>54kg</td>
+              <td>47.6kg<br><span style="color: red;">-6.4kg</span></td>
+              <!--<td>65kg<br><span style="color: red;">-9.5kg</span></td>-->
+            </tr>
+            <tr>
+              <th>体脂肪</th>
+              <td>36.2%</td>
+              <td>23.8%<br><span style="color: red;">-12.4%</span></td>
+              <!--<td>16.2%<br><span style="color: red;">-4.3%</span></td>-->
+            </tr>
+          </table>
+        </div>
+      </div>
+
+     
+      <div class="row mt-4">
+        <h3 class="text-center mb-4" style="color: #fff; font-weight: bold;">CASE3</h3>
+
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+        <img src="https://boneedz.com/wp-content/uploads/2021/09/モザイク.jpg">
+        </div>
+
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <table>
+            <tr>
+              <th></th>
+              <th>2020.10.1</th>
+              <th>2020.12.15</th>     
+             <!--* <th>2020.10</th>-->
+            </tr>
+
+          
+            <tr>
+              <th>体重</th>
+              <td>64kg</td>
+              <td>56kg<br><span style="color: red;">-6.4kg</span></td>
+        
+              <!--<td>65kg<br><span style="color: red;">-9.5kg</span></td>-->
+
+           
+            </tr>
+            <tr>
+              <th>体脂肪</th>
+              <td>45.6%</td>
+              <td>33.7%<br><span style="color: red;">-12.4%</span></td>
+
+              <!--<td>16.2%<br><span style="color: red;">-4.3%</span></td>-->
+            </tr>
+          </table>
+        </div>
+      </div>
+
 
     </section>
 

@@ -65,6 +65,14 @@
       </div>
     </section>
 
+    <section id="golf">
+    　<div class="d-flex justify-content-center align-items-center">
+         <a href="https://boneedz.com/sakaide/%e3%83%9c%e3%83%8b%e3%83%bc%e3%82%ba%e3%82%b4%e3%83%ab%e3%83%95%e2%9b%b3%ef%b8%8f/">
+          <img src="https://boneedz.com/wp-content/uploads/2021/06/ボニーズゴルフ.png" />
+         </a>
+      </div>
+    </section>
+
 
     <section id="blog" class="section">
       <div class="container">
@@ -244,7 +252,7 @@
         <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Q1. 駐車場はありますか？ <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
         <div id="faq1" class="collapse" data-bs-parent=".faq-list">
           <p>
-            A1．
+            A1．駐車場はございません。駅周辺のパーキングをご利用ください。
           </p>
         </div>
       </li>
@@ -253,7 +261,7 @@
         <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Q2．場所どこですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
         <div id="faq2" class="collapse" data-bs-parent=".faq-list">
           <p>
-          A2．
+          A2．坂出駅南口に隣接しております。詳しくはサイト下部にgoogle Mapを表示しておりますのでご利用ください。
           </p>
         </div>
       </li>
@@ -262,7 +270,7 @@
         <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Q3. 空いてる時間はありますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
         <div id="faq3" class="collapse" data-bs-parent=".faq-list">
           <p>
-            A3．</br>
+            A3．平日の10:00~17:00の間は比較的空いております。
           </p>
         </div>
       </li>
@@ -280,28 +288,68 @@
         <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Q5．子どもでも大丈夫ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
         <div id="faq5" class="collapse" data-bs-parent=".faq-list">
           <p>
-            A5．もちろん大歓迎です。</br>
+            A5．大丈夫です。初回は同意書等の作成や、支払い方法の確認などがございますので同伴していただくようお願いしております。
           </p>
         </div>
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Q６．子ども連れてきても大丈夫ですか<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Q6．子ども連れてきても大丈夫ですか<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
         <div id="faq6" class="collapse" data-bs-parent=".faq-list">
           <p>
-            A6．
+            A6．事前に連絡をいただければ、同伴いただいて問題ございません。
           </p>
         </div>
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">Q7．歳いってるけど大丈夫ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">Q7．高齢ですが大丈夫ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
         <div id="faq7" class="collapse" data-bs-parent=".faq-list">
           <p>
-            A7．
+            A7．大丈夫です。お客様に合わせたトレーニングメニューを提案しております。体の痛い部分や心配な部分をご相談ください。
           </p>
         </div>
       </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq8" class="collapsed question">Q8．食事指導はやってますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq7" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            A8．坂出店では、会員様に対して3日間限定の食事指導がございます。詳細はお問い合わせください。
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq9" class="collapsed question">Q9． 部分やせのトレーニングメニューを作ってもらうことは可能ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq9" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            A9．はい。可能です。<br>
+            にの腕、お腹、お尻、ふともも、ふくろはぎ、背中、などの部分トレーニングも可能です。<br>
+            特に女性からお尻のトレーニングを依頼されるケースが多くなっております。
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq10" class="collapsed question">Q10． どのような目的の方が来られますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq10" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            A10．シェイプアップ、ボディメイク、部分やせ、体質改善、運動不足解消、学生様の競技能力向上などさまざまなケースがございます。<br>
+            腰痛・首・肩こりを改善したい方などもいらっしゃいます。
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <div data-bs-toggle="collapse" href="#faq11" class="collapsed question">Q11． オンラインでのトレーニングは可能ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div id="faq11" class="collapse" data-bs-parent=".faq-list">
+          <p>
+            A11．オンラインでのマンツーマントレーニングサービスがございます。この時、費用は通常のトレーニング費用と変わります
+          </p>
+        </div>
+      </li>
+
     </ul>
 
   </div>

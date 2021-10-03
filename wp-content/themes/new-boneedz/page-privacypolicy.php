@@ -6,7 +6,7 @@
   <!-- <meta content="" name="description">
   <meta content="" name="keywords"> -->
   <?php get_header(); ?>
-  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-privacypolicy.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-privacypolicy.min.css" rel="stylesheet">
 </head>
 
 <body>

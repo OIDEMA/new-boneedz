@@ -1,0 +1,45 @@
+<div class="container" style="padding: 0;">
+   <div class="row contact-form_bgcolor-red">
+       <div class="col-12 contact-form_bgcolor-white">
+           <div class="contact-form_item">
+            <label class="mt-5">お問合せ店舗<span class="must-label">必須</span></label>
+            [checkbox* checkbox-512 "高松店" "坂出店" "丸亀店"]
+           </div>
+
+           <div class="contact-form_item">
+            <label>ご希望コース<span class="must-label">必須</span></label>
+            [checkbox* checkbox-513 "通常体験トレーニングコース(体験&カウンセリング無料)" "短期集中トレーニングコース(体験&カウンセリング無料)"]
+           </div>
+
+           <div class="contact-form_item">
+            <label>メールアドレス<span class="must-label">必須</span></label>
+            [email* your-email class:form-control]
+           </div>
+        
+
+           <div class="contact-form_item">
+            <label>お電話番号<span class="must-label">必須</span></label>
+            [tel* tel-973 class:form-control]
+           </div>
+
+           <div class="contact-form_item">
+            <label>お電話可能な時間帯</label>
+            [select menu-667 class:form-control first_as_label "選択してください" "10:00〜12:00" "12:00〜14:00" "14:00〜16:00" "16:00〜18:00" "18:00〜20:00" "20:00〜22:00"]
+           </div>
+
+           <div class="contact-form_item">
+            <label>お名前<span class="must-label">必須</span></label>
+            [text* your-name class:form-control]
+           </div>
+
+           <div class="contact-form_item">
+            <label>ご質問内容<span class="must-label">必須</span></label>
+            [textarea* your-message class:form-control class:mb-3]
+           </div>
+
+           <div class="contact-form_item">
+            [submit class:submit-button class:mt-5 "送信"]
+          </div>
+        </div>
+   </div> 
+</div>

@@ -82,7 +82,7 @@
       </div>
     </section> -->
 
-    <section class="pricing-section service-pricing section">
+    <section class="pricing-section service-pricing section" id="services">
         <div class="container">
           
         <div class="section-header">

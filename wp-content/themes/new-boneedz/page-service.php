@@ -4,8 +4,8 @@
 <head>
   <title>香川県高松市・坂出市にあるパーソナルトレーニングジム | コース・料金</title>
   <?php get_header(); ?>
-  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/front-page.css" rel="stylesheet">
-  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-service.css" rel="stylesheet">  
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/front-page.min.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-service.min.css" rel="stylesheet">  
 </head>
 
 <body>
@@ -107,8 +107,6 @@
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     <?php get_footer(); ?>
-
-    </main>
 </body>
 
 </html>

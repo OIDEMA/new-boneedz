@@ -51,7 +51,7 @@
           </div>
 
           <div class="col-lg-6 mt-2">
-            <a href="<?php echo home_url('/extensive/') ?>">
+            <a href="#services">
             <img src="https://boneedz.com/wp-content/uploads/2021/05/安心プログラム.png" alt="安心プラン" class="img-fluid" />
             </a>
           </div>
@@ -69,6 +69,23 @@
                 坂出店はこちらをクリック
             </div>
           </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 松本さん追記 -->
+    <section class="mt-4">
+      <div class="container" style="padding: 50px; margin-bottom: 10px; border: 3px solid #333333;">
+        <div class="row mx-auto">
+          <div class="col">
+            <h2>施設ご利用に際してのお願い</h2>
+            ・香川県新型コロナウイルス感染者増加に伴い、 施設入館時、退館時のマスク着用の徹底をお願いいたします。<br>
+            ・３７．０度以上の発熱等、体調不良時のご利用はお断りいたします。<br>
+            ・見学者、付き添いの方　等々もマスク着用をお願いいたします。<br>
+            ・着替える場所は更衣室でお願いいたします。<br>
+            ・施設内はスタッフが都度消毒をしてまいります。<br>
+            ・施設内は定期的に換気しています。<br>
+          </div>
         </div>
       </div>
     </section>

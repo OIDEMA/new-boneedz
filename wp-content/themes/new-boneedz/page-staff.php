@@ -4,12 +4,12 @@
 <head>
   <title>香川県高松市にあるパーソナルトレーニングジム | スタッフ紹介</title>
   <?php get_header(); ?>
-  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-staff.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-staff.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-<main id="main" style="background-color: #f8f8f8;">
+<main id="main">
 
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
