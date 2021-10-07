@@ -44,7 +44,6 @@
   font-weight: 600;
 }
 
-
 #contact label {
     font-size: 18px;
     font-weight: 700;
@@ -52,7 +51,7 @@
 }
 
 #contact .contact-form_bgcolor-red {
-  background-color: #880000;
+  background-color: #000;
   padding: 3rem;
   border-radius: 8px;
 }

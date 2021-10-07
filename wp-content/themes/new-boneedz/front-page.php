@@ -33,8 +33,27 @@
 
   <main id="main">
 
+    <!-- 松本さん追記 -->
+    <section class="mb-5" style="margin-top: 8rem">
+      <div class="container pa-0">
+        <div class="row mx-auto">
+          <div class="col-lg-12">
+            <ul class="temporary-message">
+              <h2 class="temporary-message-title">施設ご利用に際してのお願い</h2>
+                <li>香川県新型コロナウイルス感染者増加に伴い、 施設入館時、退館時のマスク着用の徹底をお願いいたします。<br>
+                <li>37.0度以上の発熱等、体調不良時のご利用はお断りいたします</li>
+                <li>見学者、付き添いの方　等々もマスク着用をお願いいたします</li>
+                <li>着替える場所は更衣室でお願いいたします</li>
+                <li>施設内はスタッフが都度消毒をしてまいります</li>
+                <li>施設内は定期的に換気しています</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- メインビジュアル　-->
-    <section id="top" style="margin-top: 6rem;">
+    <section id="top">
       <a href="<?php echo home_url('/contact/'); ?>">
         <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2020/07/boneeds-main-visual02.jpg" alt="" class="img-fluid">
       </a>
@@ -73,23 +92,6 @@
       </div>
     </section>
 
-    <!-- 松本さん追記 -->
-    <section class="mt-4">
-      <div class="container" style="padding: 50px; margin-bottom: 10px; border: 3px solid #333333;">
-        <div class="row mx-auto">
-          <div class="col">
-            <h2>施設ご利用に際してのお願い</h2>
-            ・香川県新型コロナウイルス感染者増加に伴い、 施設入館時、退館時のマスク着用の徹底をお願いいたします。<br>
-            ・３７．０度以上の発熱等、体調不良時のご利用はお断りいたします。<br>
-            ・見学者、付き添いの方　等々もマスク着用をお願いいたします。<br>
-            ・着替える場所は更衣室でお願いいたします。<br>
-            ・施設内はスタッフが都度消毒をしてまいります。<br>
-            ・施設内は定期的に換気しています。<br>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- <section id="clickTo" class="mt-4">
 
        <div class="container">
@@ -110,7 +112,7 @@
 
     </section> -->
 
-    <section id="news" class="section">
+    <!-- <section id="news" class="section">
       <div class="container">
         <div class="row d-flex justify-content-centetr slick-wrapper mx-auto">
         <?php
@@ -131,7 +133,7 @@
           <?php endforeach; ?>
         </div>
       </div>
-    </section>
+    </section> -->
   
     <section id="blog" class="section">
       <div class="container">
@@ -446,82 +448,11 @@
   <script src="<?php echo get_template_directory_uri(); ?>/assets/vendor/jquery/jquery.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/vendor/slick/slick.min.js"></script>
-  <script>
-    jQuery(function() {
-      jQuery('.slick-wrapper').slick({
-        autoplaySpeed: 3000, // 自動再生で切り替えをする時間
-        speed: 400, // 自動再生でスライドさせるスピード
-        infinite: true, // 無限スクロール
-        dots: true, // 画像下のドット（ページ送り）を表示
-        arrows: true, // 左右の次へ、前へボタンを表示
-        autoplay: true, // 自動再生
-        slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
-        slidesToScroll: 1, // 一度にスライドする数
-        // responsive: [
-        //   {
-        //     breakpoint: 968,
-        //     settings: {
-        //       slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
-        //       slidesToScroll: 1, // 一度にスライドする数
-        //     },
-        //   },
-        //   {
-        //     breakpoint: 468,
-        //     settings: {
-        //       slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
-        //       slidesToScroll: 1, // 一度にスライドする数
-        //     }
-        //   }]
-        });
-    });
-  </script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick-options.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/swiper-options.min.js"></script>
 
   <?php get_footer(); ?>
 
-  <script>
-    $(document).ready(function () {
-    // swiperをイニシャライズ
-    var mySwiper = new Swiper ('.swiper-container', {
-      // オプションのパラメーターを指定
-      slidesPerView: 4,
-      direction: 'horizontal',
-      loop: true,
-      // spaceBetween: 15,
-      breakpoints: {
-      // when window width is >= 320px
-        320: {
-          slidesPerView: 1,
-        },
-        480: {
-          slidesPerView: 1,
-        },
-        640: {
-          slidesPerView: 2,
-        },
-        960: {
-          slidesPerView: 3,
-        },
-        1200: {
-          slidesPerView: 4,
-        },
-      },
-      // centeredSlides: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      // pagination: {
-      //   el: '.swiper-pagination',
-      //   dynamicBullets: true,
-      //   clickable: true,
-      // },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      })
-    });
-  </script>
 </body>
 
 </html>
