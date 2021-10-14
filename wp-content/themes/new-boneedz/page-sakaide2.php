@@ -2,15 +2,17 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-  <title>香川県高松市にあるパーソナルトレーニングジム | boneedz</title>
+  <title>香川県高松市にあるパーソナルトレーニングジム | boneedz坂出店</title>
   <!-- <meta content="" name="description">
   <meta content="" name="keywords"> -->
   <?php get_header(); ?>
-  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/front-page.css" rel="stylesheet">
-  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-sakaide.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/front-page.min.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-sakaide.min.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-qna.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick-theme.css" media="screen" />
   <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-contact.min.css" rel="stylesheet">
 
 </head>
 
@@ -107,10 +109,8 @@
 
           </div>
 
-          <!-- <div class="swiper-pagination"></div> -->
           <div class="swiper-button-prev" style="color: #000; font-weight: bold;"></div>
           <div class="swiper-button-next" style="color: #000; font-weight: bold;"></div>
-          <!-- <div class="swiper-scrollbar"></div> -->
 
         </div>
       </div>
@@ -218,11 +218,6 @@
                 <div class="member-info">
                   <div class="member-info-content">
                     <span>山内 望愛　YAMAUHI NOA</span>
-                    <!-- <div class="social">
-                      <a href=""><i class="bi bi-twitter"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                    </div> -->
                   </div>
                 </div>
               </div>
@@ -249,7 +244,9 @@
     <ul class="faq-list mt-5" data-aso="fade-up" data-aos-delay="100">
 
       <li>
-        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Q1. 駐車場はありますか？ <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">駐車場はありますか？
+          <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq1" class="collapse" data-bs-parent=".faq-list">
           <p>
             A1．駐車場はございません。駅周辺のパーキングをご利用ください。
@@ -258,7 +255,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Q2．場所どこですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">場所どこですか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq2" class="collapse" data-bs-parent=".faq-list">
           <p>
           A2．坂出駅南口に隣接しております。詳しくはサイト下部にgoogle Mapを表示しておりますのでご利用ください。
@@ -267,7 +266,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Q3. 空いてる時間はありますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">空いてる時間はありますか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+          </div>
         <div id="faq3" class="collapse" data-bs-parent=".faq-list">
           <p>
             A3．平日の10:00~17:00の間は比較的空いております。
@@ -276,7 +277,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Q4．体験メニューはありますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">体験メニューはありますか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq4" class="collapse" data-bs-parent=".faq-list">
           <p>
             A4．ございます。体験される場合は、運動のしやすい服装と室内シューズをお持ちください。
@@ -285,7 +288,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Q5．子どもでも大丈夫ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">子どもでも大丈夫ですか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq5" class="collapse" data-bs-parent=".faq-list">
           <p>
             A5．大丈夫です。初回は同意書等の作成や、支払い方法の確認などがございますので同伴していただくようお願いしております。
@@ -294,7 +299,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Q6．子ども連れてきても大丈夫ですか<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">子ども連れてきても大丈夫ですか
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq6" class="collapse" data-bs-parent=".faq-list">
           <p>
             A6．事前に連絡をいただければ、同伴いただいて問題ございません。
@@ -303,7 +310,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">Q7．高齢ですが大丈夫ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">高齢ですが大丈夫ですか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq7" class="collapse" data-bs-parent=".faq-list">
           <p>
             A7．大丈夫です。お客様に合わせたトレーニングメニューを提案しております。体の痛い部分や心配な部分をご相談ください。
@@ -312,7 +321,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq8" class="collapsed question">Q8．食事指導はやってますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq8" class="collapsed question">食事指導はやってますか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq7" class="collapse" data-bs-parent=".faq-list">
           <p>
             A8．坂出店では、会員様に対して3日間限定の食事指導がございます。詳細はお問い合わせください。
@@ -321,7 +332,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq9" class="collapsed question">Q9． 部分やせのトレーニングメニューを作ってもらうことは可能ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq9" class="collapsed question">部分やせのトレーニングメニューを作ってもらうことは可能ですか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq9" class="collapse" data-bs-parent=".faq-list">
           <p>
             A9．はい。可能です。<br>
@@ -332,7 +345,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq10" class="collapsed question">Q10． どのような目的の方が来られますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq10" class="collapsed question">どのような目的の方が来られますか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq10" class="collapse" data-bs-parent=".faq-list">
           <p>
             A10．シェイプアップ、ボディメイク、部分やせ、体質改善、運動不足解消、学生様の競技能力向上などさまざまなケースがございます。<br>
@@ -342,7 +357,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq11" class="collapsed question">Q11． オンラインでのトレーニングは可能ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq11" class="collapsed question">オンラインでのトレーニングは可能ですか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq11" class="collapse" data-bs-parent=".faq-list">
           <p>
             A11．オンラインでのマンツーマントレーニングサービスがございます。この時、費用は通常のトレーニング費用と変わります
@@ -356,24 +373,20 @@
 </section>
 
 
-<section id="form" class="section section-bg">
+<section id="contact" class="section">
   <div class="container">
     <div class="section-header">
         <h3 class="mt-4 mb-4">坂出店へのお問い合わせ</h3>
     </div>
     <div class="row">
-      <div class="col-lg-6 mx-auto d-flex justify-content-center align-items-center">
-        <?php echo do_shortcode('[contact-form-7 id="2148" title="坂出店受付フォーム"]'); ?>
+      <div class="col-lg-10 mx-auto d-flex justify-content-center align-items-center">
+        <?php echo do_shortcode('[contact-form-7 id="1252" title="坂出店受け問い合わせフォーム"]'); ?>
         </div>
     </div>
   </div>
 </section>
+</main>
 
-
-
-  </main>
-
-  <?php get_template_part('template-parts/sponsor'); ?>
   <?php get_template_part('template-parts/footer'); ?>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -381,82 +394,11 @@
   <script src="<?php echo get_template_directory_uri(); ?>/assets/vendor/jquery/jquery.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/vendor/slick/slick.min.js"></script>
-  <script>
-    jQuery(function() {
-      jQuery('.slick-wrapper').slick({
-        autoplaySpeed: 3000, // 自動再生で切り替えをする時間
-        speed: 400, // 自動再生でスライドさせるスピード
-        infinite: true, // 無限スクロール
-        dots: true, // 画像下のドット（ページ送り）を表示
-        arrows: true, // 左右の次へ、前へボタンを表示
-        autoplay: true, // 自動再生
-        slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
-        slidesToScroll: 1, // 一度にスライドする数
-        // responsive: [
-        //   {
-        //     breakpoint: 968,
-        //     settings: {
-        //       slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
-        //       slidesToScroll: 1, // 一度にスライドする数
-        //     },
-        //   },
-        //   {
-        //     breakpoint: 468,
-        //     settings: {
-        //       slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
-        //       slidesToScroll: 1, // 一度にスライドする数
-        //     }
-        //   }]
-        });
-    });
-  </script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick-options.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/swiper-options.min.js"></script>
 
   <?php get_footer(); ?>
 
-  <script>
-    $(document).ready(function () {
-    // swiperをイニシャライズ
-    var mySwiper = new Swiper ('.swiper-container', {
-      // オプションのパラメーターを指定
-      slidesPerView: 4,
-      direction: 'horizontal',
-      loop: true,
-      // spaceBetween: 15,
-      breakpoints: {
-      // when window width is >= 320px
-        320: {
-          slidesPerView: 1,
-        },
-        480: {
-          slidesPerView: 1,
-        },
-        640: {
-          slidesPerView: 2,
-        },
-        960: {
-          slidesPerView: 3,
-        },
-        1200: {
-          slidesPerView: 4,
-        },
-      },
-      // centeredSlides: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      // pagination: {
-      //   el: '.swiper-pagination',
-      //   dynamicBullets: true,
-      //   clickable: true,
-      // },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      })
-    });
-  </script>
 </body>
 
-</html>
+</html> 

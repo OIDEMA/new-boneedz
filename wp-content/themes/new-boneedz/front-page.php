@@ -22,12 +22,6 @@
      
       <?php get_template_part('template-parts/navigation'); ?>
 
-      <div class="social-links">
-        <!-- <a href="#" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a> -->
-        <a href="https://instagram.com/boneedz_t_s?igshid=o18yoxm3cj" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-      </div>
-
     </div>
   </header>
 
@@ -135,7 +129,7 @@
       </div>
     </section> -->
   
-    <section id="blog" class="section">
+    <!-- <section id="blog" class="section">
       <div class="container">
 
         <div class="section-header">
@@ -150,8 +144,8 @@
               'posts_per_page' => 6
             );
               $posts = get_posts( $args );
-              foreach ( $posts as $post ): // ループの開始
-              setup_postdata( $post ); // 記事データの取得
+              foreach ( $posts as $post ):
+              setup_postdata( $post ); 
             ?>
             <?php $img = get_eyecatch(); ?>
 
@@ -167,14 +161,12 @@
 
           </div>
 
-          <!-- <div class="swiper-pagination"></div> -->
           <div class="swiper-button-prev" style="color: #000; font-weight: bold;"></div>
           <div class="swiper-button-next" style="color: #000; font-weight: bold;"></div>
-          <!-- <div class="swiper-scrollbar"></div> -->
 
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- スタッフ紹介 -->
     <section id="team" class="team section section-bg">

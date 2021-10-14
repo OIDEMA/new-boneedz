@@ -2,9 +2,7 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-  <title>香川県高松市にあるパーソナルトレーニングジム | Q&A</title>
-  <!-- <meta content="" name="description">
-  <meta content="" name="keywords"> -->
+  <title>香川県高松市にあるパーソナルトレーニングジム | ご質問受付</title>
   <?php get_header(); ?>
   <link href="<?php echo get_template_directory_uri(); ?>/assets/css/page-contact.min.css" rel="stylesheet">
 </head>
@@ -19,7 +17,9 @@
       <a href="<?php echo home_url('/'); ?>" class="logo me-auto align-items-center">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="img-fluid">
       </a>
+      
       <?php get_template_part('template-parts/navigation'); ?>
+
     </div>
   </header>
 
@@ -29,7 +29,7 @@
           <div class="col-lg-12 d-flex justify-content-between align-items-center">
             <ol>
               <li><a href="<?php echo home_url('/'); ?>">ホーム</a></li>
-              <li>お問い合わせ</li>
+              <li>ご質問フォーム</li>
             </ol>
           </div>
         </div>
@@ -39,10 +39,10 @@
   <section id="contact">
       <div class="container">
           <div class="row">
-              <h2 class="text-center mt-5 welcome-message">boneedzで理想のカラダを！</h2>
-              <p class="text-center mt-2">あなたのカラダ作りを全力でサポートします</p>              
+              <h2 class="text-center mt-5 welcome-message">ご質問フォーム</h2>
+              <p class="text-center mt-2">お気軽にお問い合わせください</p>              
               <div class="col-lg-8 mx-auto d-flex justify-content-center align-items-center mt-5 mb-5">
-                  <?php echo do_shortcode('[contact-form-7 id="65" title="お問い合わせ"]'); ?>
+                  <?php echo do_shortcode('[contact-form-7 id="2167" title="質問受け付けフォーム"]'); ?>
               </div>
           </div>
       </div>

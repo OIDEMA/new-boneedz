@@ -5,11 +5,10 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 d-flex justify-content-center align-items-center mx-auto">
             <div class="footer-info">
                 <!-- <h3>Rapi</h3> -->
-                <a href="<?php echo home_url('/'); ?>" class="logo me-auto align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="img-fluid"></a>
-                <p class="text-center">パーソナルトレーニングスタジオ boneedz</p>
+                <a href="<?php echo home_url('/'); ?>" class="logo me-auto align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="img-fluid" style="max-width: 200px;"></a>
             </div>
           </div>
 

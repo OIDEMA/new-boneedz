@@ -13,6 +13,10 @@
 <!-- Template Main CSS File -->
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.min.css" rel="stylesheet">
 
+<!-- Ptengine Tag -->
+<script type="text/javascript" src="https://js.ptengine.jp/5b9tsnpp.js"></script>
+<!-- End Ptengine Tag -->
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0DK8GLCTC1"></script>
 <script>

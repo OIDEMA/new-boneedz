@@ -19,10 +19,19 @@
 #faq .faq-list {
   padding: 0;
   list-style: none;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 560px) {
+  #faq .faq-list {
+    padding: 0;
+    padding: 1rem 0.5rem;
+  }
 }
 
 #faq .faq-list li {
-  border-bottom: 1px solid #edecf4;
+  border-bottom: 2px dashed #000;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -34,23 +43,41 @@
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  padding-left: 25px;
   cursor: pointer;
   color: #880000;
   transition: 0.3s;
+  height: 100%;
+  padding-right: 1rem;
+}
+#faq .faq-list .question-icon {
+  font-size: 30px;
+}
+@media (max-width: 560px) {
+  #faq .faq-list .question {
+    font-size: 14px;
+    padding-right: 1rem;
+  }
+  #faq .faq-list .question-icon {
+    font-size: 22px;
+  }
 }
 
 #faq .faq-list i {
-  font-size: 16px;
+  color: #000;
   position: absolute;
-  left: 0;
-  top: -2px;
+  right: 0;
 }
-
 #faq .faq-list p {
   margin-bottom: 0;
-  padding: 10px 0 0 25px;
+  padding: 10px 0 0 0;
 }
+
+@media (max-width: 560px) {
+  #faq .faq-list p {
+    font-size: 12px;
+  }
+}
+
 
 #faq .faq-list .icon-show {
   display: none;
@@ -111,5 +138,29 @@
   }
   #top-image .page-title p{
     font-size: 12px;
+  }
+}
+
+#question-btn {
+ border-radius: 25px;
+ max-width: 320px;
+}
+
+.triangle{
+  width: 50px;
+  border-top: 50px solid #6c757d;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  padding: 0;
+}
+
+@media (max-width: 560px) {
+  .triangle{
+    width: 25px;
+    border-top: 25px solid #6c757d;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom: 25px solid transparent;
   }
 }

@@ -11,7 +11,7 @@
 
 <body>
 
-<main id="main" style="background-color: #f8f8f8;">
+<main id="main">
 
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
@@ -55,14 +55,15 @@
 <section id="faq" class="faq">
   <div class="container" data-aos="fade-up">
 
-    <!-- <header class="section-header">
-      <h3>Question & Answer</h3>
-    </header> -->
-
+    <!-- <p class="text-center"> - Q&A - </p> -->
+  
     <ul class="faq-list mt-5" data-aso="fade-up" data-aos-delay="100">
 
       <li>
-        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Q1. どれくらいの期間で効果を実感できますか？ <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        ① どれくらいの期間で効果を実感できますか？
+        </div>
         <div id="faq1" class="collapse" data-bs-parent=".faq-list">
           <p>
             A1．早い方で１ヶ月ほどで効果を実感されます。</br>
@@ -72,7 +73,8 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Q2．他のパーソナルジムとの違いが知りたいです。<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">② 他のパーソナルジムとの違いが知りたいです。
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
         <div id="faq2" class="collapse" data-bs-parent=".faq-list">
           <p>
           A2．短期的な結果ではなく「長期的な変化」を目的としております。</br>
@@ -82,7 +84,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Q3. トレーナーは指名できますか？また、変更はできますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">③ トレーナーは指名できますか？また、変更はできますか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq3" class="collapse" data-bs-parent=".faq-list">
           <p>
             A3．もちろん指名可能です。</br>
@@ -92,7 +96,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Q4．ウェアやシューズのレンタルはありますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">④ ウェアやシューズのレンタルはありますか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq4" class="collapse" data-bs-parent=".faq-list">
           <p>
             A4．男女それぞれレンタルシューズはございます。
@@ -102,7 +108,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Q5．高齢でも入会可能ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">⑤ 高齢でも入会可能ですか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq5" class="collapse" data-bs-parent=".faq-list">
           <p>
             A5．もちろん大歓迎です。</br>
@@ -112,7 +120,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Q６．支払い方法は？カード払い可能ですか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">⑥ 支払い方法は？カード払い可能ですか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq6" class="collapse" data-bs-parent=".faq-list">
           <p>
             A6．ボニーズでは一律「口座引き落とし」とさせていただいております。
@@ -121,7 +131,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">Q7．女性が筋力トレーニングをしてもムキムキになりませんか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">⑦ 女性が筋力トレーニングをしてもムキムキになりませんか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq7" class="collapse" data-bs-parent=".faq-list">
           <p>
             A7．目的に合ったトレーニングを提案させていただきます。<br>
@@ -131,7 +143,9 @@
       </li>
 
       <li>
-        <div data-bs-toggle="collapse" href="#faq8" class="collapsed question">Q8．空いている時間はありますか？<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+        <div data-bs-toggle="collapse" href="#faq8" class="collapsed question">⑧ 空いている時間はありますか？
+        <span class="question-icon"><i class="bi bi-plus-circle-fill icon-show"></i></span><span class="question-icon"><i class="bi bi-dash-circle-fill icon-close"></i></span>
+        </div>
         <div id="faq8" class="collapse" data-bs-parent=".faq-list">
           <p>
           A8．現在どの時間帯でも承っておりますが17:00以降の予約が大変混み合っております。<br>
@@ -141,14 +155,26 @@
       </li>
 
     </ul>
+  </div>
 
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <p class="text-center my-4">不明点が解決されない場合、専用フォームよりお問い合わせください</p>
+      <div class="triangle"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <a href="<?php echo home_url('/contact/'); ?>" id="question-btn" class="btn btn-secondary">
+        <button class="btn btn-secondary">ご質問フォームへ</button>
+      </a>
+    </div>
   </div>
 </section>
 
 </main>
 
-<?php get_template_part('template-parts/map'); ?>
-<?php get_template_part('template-parts/sponsor'); ?>
 <?php get_template_part('template-parts/footer'); ?>
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
