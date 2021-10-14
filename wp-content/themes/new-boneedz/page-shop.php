@@ -20,10 +20,6 @@
       
       <?php get_template_part('template-parts/navigation'); ?>
 
-      <div class="social-links">
-        <a href="https://instagram.com/boneedz_t_s?igshid=o18yoxm3cj" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-      </div>
-
     </div>
   </header>
 
