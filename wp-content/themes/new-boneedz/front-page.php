@@ -27,8 +27,45 @@
 
   <main id="main">
 
+    <!-- メインビジュアル　-->
+    <!-- <section id="top">
+      <a href="<?php echo home_url('/contact/'); ?>">
+        <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2020/07/boneeds-main-visual02.jpg" alt="" class="img-fluid">
+      </a>
+    </section> -->
+
+    <section id="clickTo" style="margin-top: 6rem">
+      <div class="container">
+
+        <div class="container" style="padding: 0 !important;">
+            <div class="row justify-content-center align-items-center mx-auto">
+              <div class="col-12 pt-3 pb-3 mt-2 mb-2 coupon-box">
+                <div class="pt-3 pb-3 coupon-box_dot">
+                  <h2 class="text-center">【10周年記念】高松店限定キャンペーン登場！</h2>
+                </div>
+              </div>
+            </div>
+        </div>
+        <p class="text-center coupon-subtext">※11月末までのキャンペーンです。お申し込みはお急ぎください</p>
+
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 mt-3 mb-2 d-flex justify-content-center">
+              <a href="<?php echo home_url('/contact/') ?>">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/campaign/banner_1.webp" alt="" class="img-fluid">
+              </a>
+            </div>
+
+            <div class="col-lg-6 mt-2 mb-2 d-flex justify-content-center">
+              <a href="<?php echo home_url('/contact/') ?>" class="mx-auto">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/campaign/banner_2.webp" alt="" class="img-fluid">
+              </a>
+            </div>
+        </div>
+      </div>
+    </section>
+
     <!-- 松本さん追記 -->
-    <section class="mb-5" style="margin-top: 8rem">
+    <section class="mt-2 mb-2">
       <div class="container pa-0">
         <div class="row mx-auto">
           <div class="col-lg-12">
@@ -44,13 +81,6 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- メインビジュアル　-->
-    <section id="top">
-      <a href="<?php echo home_url('/contact/'); ?>">
-        <img src="<?php $upload_dir = wp_upload_dir(); echo $upload_dir['baseurl']; ?>/2020/07/boneeds-main-visual02.jpg" alt="" class="img-fluid">
-      </a>
     </section>
 
     <section id="clickTo" class="mt-4">

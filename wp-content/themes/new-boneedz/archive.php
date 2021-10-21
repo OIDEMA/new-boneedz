@@ -16,12 +16,6 @@
      
       <?php get_template_part('template-parts/navigation'); ?>
 
-      <div class="social-links">
-        <a href="#" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-      </div>
-
     </div>
   </header>
 
