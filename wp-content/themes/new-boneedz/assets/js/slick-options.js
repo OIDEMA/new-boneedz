@@ -6,22 +6,22 @@ jQuery(function() {
     dots: true, // 画像下のドット（ページ送り）を表示
     arrows: true, // 左右の次へ、前へボタンを表示
     autoplay: false, // 自動再生
-    slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
+    slidesToShow: 4, // スライドのエリアに画像がいくつ表示されるかを指定
     slidesToScroll: 1, // 一度にスライドする数
-    // responsive: [
-    //   {
-    //     breakpoint: 968,
-    //     settings: {
-    //       slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
-    //       slidesToScroll: 1, // 一度にスライドする数
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 468,
-    //     settings: {
-    //       slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
-    //       slidesToScroll: 1, // 一度にスライドする数
-    //     }
-    //   }]
+    responsive: [
+      {
+        breakpoint: 968,
+        settings: {
+          slidesToShow: 4, // スライドのエリアに画像がいくつ表示されるかを指定
+          slidesToScroll: 1, // 一度にスライドする数
+        },
+      },
+      {
+        breakpoint: 468,
+        settings: {
+          slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
+          slidesToScroll: 1, // 一度にスライドする数
+        }
+      }]
     });
 });

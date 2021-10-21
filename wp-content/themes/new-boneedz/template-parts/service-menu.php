@@ -90,9 +90,9 @@
           <p class="mb-4">価格は全て税込表示になります</p>
         </div>
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center slick-wrapper">
 
-                <div class="col-lg-3 col-md-8">
+                <div class="col-lg-3 col-md-8" style="padding: 0 .5rem;">
                     <div class="ps-item">
                         <h3>まずは週一回！</h3>
 
@@ -122,7 +122,7 @@
                 </div>
 
 
-                <div class="col-lg-3 col-md-8">
+                <div class="col-lg-3 col-md-8" style="padding: 0 .5rem;">
                     <div class="ps-item">
                         <h3>向上への一歩！</h3>
 
@@ -151,7 +151,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-8">
+                <div class="col-lg-3 col-md-8" style="padding: 0 .5rem;">
                     <div class="ps-item">
                         <h3>しっかりトレーニング！［おすすめ］</h3>
 
@@ -180,7 +180,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-8">
+                <div class="col-lg-3 col-md-8" style="padding: 0 .5rem;">
                     <div class="ps-item">
                         <h3>短期集中型！効果絶大</h3>
 
