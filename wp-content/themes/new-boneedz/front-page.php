@@ -51,13 +51,13 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 mt-3 mb-2 d-flex justify-content-center">
               <a href="<?php echo home_url('/contact/') ?>">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/campaign/banner_1.webp" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/campaign/banner01_bn.webp" alt="" class="img-fluid">
               </a>
             </div>
 
             <div class="col-lg-6 mt-2 mb-2 d-flex justify-content-center">
               <a href="<?php echo home_url('/contact/') ?>" class="mx-auto">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/campaign/banner_2.webp" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/campaign/banner02_bn.webp" alt="" class="img-fluid">
               </a>
             </div>
         </div>
